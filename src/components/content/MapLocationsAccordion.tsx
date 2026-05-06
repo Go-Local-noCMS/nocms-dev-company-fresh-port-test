@@ -73,7 +73,7 @@ export function MapLocationsAccordion({
           >
             {heading}
           </h2>
-          {intro && <p className="mt-3 text-muted text-lg">{intro}</p>}
+          {intro && <p className="mt-3 text-muted text-lg" data-role="subheading">{intro}</p>}
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">

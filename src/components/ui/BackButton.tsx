@@ -30,7 +30,7 @@ export const BackButton: React.FC<BackButtonProps> = ({
   };
 
   return (
-    <Button {...buttonProps} onClick={handleBack}>
+    <Button {...buttonProps} onClick={handleBack} data-nocms-component="back-button">
       {children}
     </Button>
   );

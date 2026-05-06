@@ -63,7 +63,7 @@ export const Dialog: React.FC<DialogProps> = ({
     [open, setOpen, reactId],
   );
 
-  return <DialogContext.Provider value={value}>{children}</DialogContext.Provider>;
+  return <DialogContext.Provider value={value} data-nocms-component="dialog">{children}</DialogContext.Provider>;
 };
 
 interface DialogTriggerProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {

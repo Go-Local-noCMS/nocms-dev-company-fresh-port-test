@@ -114,7 +114,7 @@ export function UnitTable({
                         ) : (
                           <a
                             href={`${reserveHrefBase}/${u.unitGroupUuid}`}
-                            className="inline-block bg-primary text-white px-3 py-2 rounded-md font-semibold text-xs hover:opacity-90"
+                            className="inline-block bg-primary text-white px-3 py-2 rounded-md font-semibold text-xs hover:opacity-90" data-role="cta"
                           >
                             Reserve
                           </a>

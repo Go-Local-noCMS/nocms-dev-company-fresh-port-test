@@ -57,7 +57,7 @@ export function BlogSearch({
           </div>
           <button
             type="submit"
-            className="inline-flex items-center justify-center bg-primary text-white font-semibold px-4 py-2 rounded-md hover:opacity-90 transition-opacity text-sm"
+            className="inline-flex items-center justify-center bg-primary text-white font-semibold px-4 py-2 rounded-md hover:opacity-90 transition-opacity text-sm" data-role="cta"
           >
             Search
           </button>

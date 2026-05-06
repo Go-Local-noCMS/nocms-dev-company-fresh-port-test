@@ -72,7 +72,7 @@ export function CubbyUnitTable({
                   ) : (
                     <a
                       href={`${reserveHrefBase}/${u.unitGroupUuid}`}
-                      className="inline-block bg-primary text-white px-4 py-2 rounded-md font-semibold text-sm hover:opacity-90"
+                      className="inline-block bg-primary text-white px-4 py-2 rounded-md font-semibold text-sm hover:opacity-90" data-role="cta"
                     >
                       Reserve
                     </a>

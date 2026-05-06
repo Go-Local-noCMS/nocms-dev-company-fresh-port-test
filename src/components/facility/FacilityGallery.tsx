@@ -65,7 +65,7 @@ export function FacilityGallery({
             src={item.src}
             alt={altOf(item, 0)}
             loading="eager"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover" data-role="media"
           />
         </div>
       </section>

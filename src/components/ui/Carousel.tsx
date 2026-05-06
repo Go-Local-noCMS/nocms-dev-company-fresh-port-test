@@ -134,7 +134,7 @@ export const Carousel: React.FC<CarouselProps> = ({
         canScrollNext: loop || canScrollNext,
         containerRef,
         registerSlideCount,
-      }}
+      }} data-nocms-component="carousel"
     >
       <div
         data-nocms-component="carousel"
